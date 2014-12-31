@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>排序算法演示</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+        <div id="TopNavigation"></div>
+        <a class="buttonStyle" id="BubbleSort" name="sort" onclick="btnStart(this)" href="#" ><span>冒泡</span></a>
+        <a class="buttonStyle" id="SelectionSort" name="sort" onclick="btnStart(this)" href="#" ><span>选择</span></a>
+        <a class="buttonStyle" id="InsertionSort" name="sort" onclick="btnStart(this)" href="#"><span>插入</span></a>
+        <a class="buttonStyle" id="MergeSort" name="sort" onclick="btnStart(this)" href="#"><span>合并</span></a>
+        <a class="buttonStyle" id="HeapSort" name="sort" onclick="btnStart(this)" href="#"><span>堆</span></a>
+        <a class="buttonStyle" id="QuickSort" name="sort" onclick="btnStart(this)" href="#"><span>快速</span></a>
+        <div id="Main">
+            <div class="opa" id="TopBar"></div>
+            <div class="opa" id="LeftBar"></div>
+            <div id="MainCenter"></div>
+            <div class="opa" id="RightBar"></div>
+            <div class="opa" id="BottomBar">
+                <div id="ChangeButtonDiv">
+                    <span class="inputChange" id="spanCount">数量/个：<input class="inputClass" id="inputCount" value="10"/></span>
+                    <span class="inputChange" id="spanSpeed">速度/每秒N次：<input class="inputClass" id="inputSpeed" value="10"/></span>
+                </div>
+            </div>
+        </div>
+
+        <div id="BottomInfo"></div>
+        <script type="text/javascript" src="style.js" ></script>
+        <script type="text/javascript" src="sort.js"></script>
+</body>
+</html>

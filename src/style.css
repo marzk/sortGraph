@@ -1,0 +1,160 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color:#FFF1C9;
+    font: normal 100% '微软雅黑','黑体','Helvetica', Arial, sans-serif;
+}
+
+#TopNavigation{
+    height: 11.5%;
+    width:100%;
+    position: relative;
+}
+
+#Main{
+    background-color:white;
+    height:77%;
+    width:100%;
+    overflow:hidden;
+    position: relative;
+}
+
+#TopBar{
+    background-color:#A4966D;
+    height:10%;
+    width:100%;
+    position: absolute;
+    z-index:0;
+}
+
+#LeftBar{
+    background-color:#A4966D;
+    height:100%;
+    width:8%;
+    position:absolute;
+    z-index:0;
+}
+
+#MainCenter{
+    background-color:#FFBD66;
+    left:5%;
+    top:7%;
+    position:absolute;
+    width:90%;
+    height:86%;
+    filter:alpha(opacity=66);
+    -moz-opacity:0.66;
+    opacity:0.66;
+    z-index: 1;
+}
+#RightBar{
+    background-color: #A4966D;
+    width:8%;
+    position: absolute;
+    right:0;
+    height:100%;
+    z-index:0;
+}
+
+#BottomBar{
+    background-color: #A4966D;
+    width:100%;
+    height:10%;
+    bottom:0;
+    position: absolute;
+    z-index:0;
+}
+
+.opa{
+    filter:alpha(opacity=54);
+    -moz-opacity:0.54;
+    opacity:0.54;
+}
+
+.buttonStyle{
+    background-color: #753600;
+    position: absolute;
+    top:10%;
+    left:10%;
+    width:8%;
+    height:5%;
+    filter:alpha(opacity=89);
+    -moz-opacity:0.89;
+    opacity:0.89;
+    text-align: center;
+    line-height : 275%;
+    z-index: 1;
+}
+
+.buttonStyle span{
+    color:white;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.buttonStyle:hover{
+    filter:alpha(opacity=65);
+    -moz-opacity:0.65;
+    opacity:0.65;
+}
+a{
+    text-decoration:none;
+}
+#BubbleSort{
+    position: absolute;
+    left:16%;
+    width:8%;
+    height:5%;
+}
+
+#SelectionSort{
+    position: absolute;
+    left:28%;
+}
+
+#InsertionSort{
+    position: absolute;
+    left:40%;
+}
+
+#MergeSort{
+    position: absolute;
+    left:52%;
+}
+
+#HeapSort{
+    position: absolute;
+    left:64%;
+}
+
+#QuickSort{
+    position: absolute;
+    left:76%;
+}
+
+.btn_down_bg{
+    background-color: #750E00;
+}
+.btn_up_bg{
+    background-color: #753600;
+}
+
+.divChild{
+    background-color: black;
+    position: absolute;
+}
+
+.inputChange{
+    vertical-align: center;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+#spanSpeed{
+    position: absolute;
+    left: 55%;
+}
+
+.inputClass{
+    text-align: center;
+}
